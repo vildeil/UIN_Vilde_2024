@@ -1,5 +1,12 @@
-$colorBlue: rgb(164, 191, 148);
+@import 'layout';
+@import 'designelements';
+
+$colorBlue: #fff;
+
 
 body {
     background-color: $colorBlue;
+    color: black;
+
+    
 }
