@@ -1,0 +1,29 @@
+.post-content{
+    text-align: left;
+
+    section{
+        background-color: rgb(225, 223, 223);
+        padding: 1rem;
+
+        form{ 
+
+            textarea{
+                width: 100%;
+                margin-bottom: 1rem;
+                border: none;
+                min-height: 150px;
+            }
+
+            button{
+                background-color: #181818;
+                color: #fff;
+            }
+        }
+
+        article{
+            border-top: 1px solid #2a2a2a;
+            padding-top: 0.5rem;
+        }
+    }
+}
+

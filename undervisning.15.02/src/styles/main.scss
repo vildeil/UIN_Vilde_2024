@@ -1,5 +1,6 @@
 @import 'layout';
 @import 'designelements';
+@import 'postpage';
 
 $colorBlue: #fff;
 
@@ -8,5 +9,18 @@ body {
     background-color: $colorBlue;
     color: black;
 
+.status-box{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.Alive{
+    background-color: rgb(97, 167, 97);
+}
+
+.Dead{
+    background-color: rgb(205, 65, 65);
+}
     
 }
